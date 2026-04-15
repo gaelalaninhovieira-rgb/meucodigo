@@ -1,0 +1,64 @@
+@@ -0,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border:0;}
+body{ background-color: #252525
+}
+header{ padding:32px;
+border-bottom:3px solid var(--subcor);
+background-color: rgba(0,0,0,0.1);}
+.Link{ text-align: center; /*Alinhamento no meio do header*/}
+.Link a{
+    color: green; /*a cor do texto*/
+    font-size: 20px; /* tamanho da fonte*/
+    line-height:30px; /*espaçamento da liha do texto*/
+    margain: 0 16px; /*espaçamento entre os textos*/
+    text-decoration: none; /*retirar decooração do texto*/
+    font-family: "Roboto Condensed", sans-serif;
+}
+.Link a:hover{ /* seleção do modo quando o mouse passar por cima "hover"*/
+    color: var(--subcor);
+    trasition: color 700ms;  /* e fazer uma transição de cor que dura 700ms*/
+}
+#box img{
+    text-align: center; /*Alinhamento no meio do body */
+    padding: 32px; /*distância dos outros elementos */
+}
+#box img{
+    border-radius: 50%; /* adcionar uma borda redonda a imagem */
+    border: 5px solid #0342 ; /* adciona uma cor a borda da imagem */
+    margin-bottom: 32px; /*distância da margem inferior dos outros elementos */
+}
+#box h1{
+    font-size: 42px; /*tamanho da fonte */
+    line-height: 52px; /*espaçamento da linnha da texto */
+    font-weight: bold; /* tipo de fonte */
+}
+#box h2{
+    font-size: 24px; /*tamanho da fonte */
+    line-height: 34px; /*espaçamento da linnha da texto */
+    font-weight: normal; /* tipo de fonte */
+    margin-top: 8px; /*distância da margem superior dos outros elementos */
+    opacity: 0.8; /*trasparência do elemento */
+}
+#box p{
+    max-width: 500px; /*tamanho máximo do elemento na largura */
+    margin: 32px auto; /*distância das margens dos outros elementos */
+    font-size: 24px; /*tamanho da fonte */
+    line-height: 34px; /*espaçamento da linnha da texto */
+}
+:root{ /* iniando a variável*/
+--subcor: #15a69f; /* nomeando a variável de --subcor e guardando uma cor nela*/} /* Fechando a o bloco da variável root*/
+header div {
+    text-align: center;
+}
+#LinksFooter {
+    padding-top: 32px;
+}
+#LinksFooter a {
+    padding-top: 32px;
+    padding-bottom:8px;
+    border-bottom:3px solid var(--subcor);
+}
